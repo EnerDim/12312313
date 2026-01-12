@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutube - Надёжный доступ к YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 5v14l11-7L8 5z" fill="currentColor"/>
+                    </svg>
+                    <span>Rutube</span>
+                </div>
+                <nav class="nav">
+                    <a href="#how">Как работает</a>
+                    <a href="#benefits">Преимущества</a>
+                    <a href="#faq">Вопросы</a>
+                </nav>
+                <a href="#download" class="btn-download-nav">Установить</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero секция -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-text">
+                    <div class="trust-badge">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M8 0L10.4 5.6L16 6.4L12 10.4L13.2 16L8 13.2L2.8 16L4 10.4L0 6.4L5.6 5.6L8 0Z" fill="currentColor"/>
+                        </svg>
+                        <span>Проверено тысячами пользователей</span>
+                    </div>
+                    <h1>Стабильный доступ<br>к YouTube</h1>
+                    <p class="hero-slogan">В приложение загружаются все видео с популярного видеохостинга - YouTube</p>
+                    <p class="hero-description">
+                        Надёжное приложение для комфортного просмотра видео. 
+                        Работает без VPN, не требует регистрации и полностью бесплатно.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="Rutube.apk" download class="btn btn-primary">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 2v10m0 0l3-3m-3 3l-3-3M4 16h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            Скачать приложение
+                            <span class="file-size">12 МБ</span>
+                        </a>
+                        <a href="#how" class="btn btn-outline">Подробнее</a>
+                    </div>
+                    <div class="hero-features">
+                        <div class="feature-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 2l2.5 7.5h7.5l-6 4.5 2.5 7.5L10 17l-6.5 4.5L6 14 0 9.5h7.5L10 2z" fill="#4A90E2"/>
+                            </svg>
+                            <span>Рейтинг 4.8/5</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 1C5 1 1 5 1 10s4 9 9 9 9-4 9-9-4-9-9-9z" stroke="#4A90E2" stroke-width="2"/>
+                                <path d="M10 5v5l3 3" stroke="#4A90E2" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <span>Быстрая загрузка</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M10 1l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6l2-6z" fill="#4A90E2"/>
+                            </svg>
+                            <span>1M+ установок</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="screen-header">
+                                <div class="screen-searchbar"></div>
+                            </div>
+                            <div class="screen-video">
+                                <div class="play-icon">
+                                    <svg viewBox="0 0 24 24" fill="white">
+                                        <path d="M8 5v14l11-7L8 5z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="screen-content">
+                                <div class="content-row"></div>
+                                <div class="content-row"></div>
+                                <div class="content-row"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visual-decoration decoration-1"></div>
+                    <div class="visual-decoration decoration-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как работает -->
+    <section id="how" class="how-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2>Три простых шага</h2>
+                <p>Начните пользоваться FreeTube за 2 минуты</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Скачайте</h3>
+                    <p>Нажмите кнопку "Скачать приложение" и сохраните APK-файл на устройство</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Установите</h3>
+                    <p>Откройте файл и разрешите установку из неизвестных источников (если требуется)</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Пользуйтесь</h3>
+                    <p>Запустите FreeTube и наслаждайтесь просмотром без ограничений и VPN</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2>Почему выбирают FreeTube</h2>
+                <p>Всё необходимое для комфортного просмотра</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Без задержек</h3>
+                    <p>Видео загружаются мгновенно. Никаких долгих буферизаций и ожиданий.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Безопасность</h3>
+                    <p>Мы не собираем личные данные. Код проверен антивирусами.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Полный функционал</h3>
+                    <p>Подписки, история, плейлисты — всё работает как положено.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Работает без VPN</h3>
+                    <p>Прямое подключение без использования VPN или прокси.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Регулярные обновления</h3>
+                    <p>Постоянные улучшения и исправления для стабильной работы.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>100% Бесплатно</h3>
+                    <p>Никаких платных подписок, скрытых платежей или рекламы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2>Ответы на вопросы</h2>
+                <p>Всё что нужно знать о FreeTube</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Это законно и безопасно?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Да, Rutube абсолютно безопасен. Приложение не нарушает законодательство, не собирает личные данные и использует официальные YouTube API. Все файлы проверены антивирусом.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Нужен ли VPN для работы?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Нет, Rutube работает без VPN. Приложение использует специальные методы для обхода блокировок и обеспечивает стабильное соединение.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Доступно ли приложение для iPhone?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Сейчас Rutube доступен только для Android-устройств. Версия для iOS находится в разработке и будет выпущена в ближайшее время.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Можно ли войти в свой Google аккаунт?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Да, вы можете авторизоваться через Google аккаунт и получить доступ к вашим подпискам, плейлистам и истории просмотров.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Есть ли реклама в приложении?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none">
+                            <path d="M19 9l-7 7-7-7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Rutube полностью бесплатен и не содержит рекламы. Мы не монетизируем приложение за счёт пользователей.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="download" class="cta-section">
+        <div class="container">
+            <div class="cta-wrapper">
+                <div class="cta-content">
+                    <h2>Начните смотреть<br>прямо сейчас</h2>
+                    <p>Установите Rutube и получите полный доступ к YouTube без ограничений</p>
+                    <a href="Rutube.apk" download class="btn btn-primary btn-large">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 2v10m0 0l3-3m-3 3l-3-3M4 16h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        Скачать Rutube
+                    </a>
+                    <div class="cta-info">
+                        <span>✓ Размер файла: 12 МБ</span>
+                        <span>✓ Для Android 5.0+</span>
+                        <span>✓ Установка 2 минуты</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none">
+                        <path d="M8 5v14l11-7L8 5z" fill="currentColor"/>
+                    </svg>
+                    <span>Rutube</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#how">Как работает</a>
+                    <a href="#benefits">Преимущества</a>
+                    <a href="#faq">Вопросы</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Rutube. Приложение создано для личного использования.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
